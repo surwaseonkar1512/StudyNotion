@@ -22,7 +22,7 @@ database.connect();
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-	origin: 'https://study-coral.vercel.app'
+	origin: 'https://study-notion-my.vercel.app/'
   }));
 
 app.use(
